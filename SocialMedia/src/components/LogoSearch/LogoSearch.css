@@ -1,0 +1,46 @@
+.LogoSearch{
+    display: flex;
+    gap: 0,75rem;
+    /* width: 300px;
+    height: 80px; */
+}
+
+.Search{
+    display: flex;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    padding: 5px;
+    height: 40px;
+    margin-top:10px;
+    margin-left:20px;
+}
+.img{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+.Search>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+.s-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(106.23deg,rgb(201,130,16), rgb(201,130,16));
+    border-radius: 5px;
+    padding: 4px;
+    color: rgb(3, 2, 17);
+}
+.s-icon:hover{
+    cursor: pointer;
+}
+@media (max-width:400px) {
+    .LogoSearch{
+        width: 250px;
+        padding: 5px;
+    }
+}

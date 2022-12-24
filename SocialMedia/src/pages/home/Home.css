@@ -1,0 +1,13 @@
+.Home{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 28rem;
+    gap:1rem
+}
+@media (max-width:400px){
+.Home{
+display: flex;
+flex-direction: column;
+
+}
+}

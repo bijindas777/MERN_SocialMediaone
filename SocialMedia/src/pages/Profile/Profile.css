@@ -1,0 +1,29 @@
+.Profile{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+}
+.Profile-center{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Profile-center2{
+   position: relative;
+   top: 580px;
+   left: -520px;
+}
+.Profile-right{
+    position: relative;
+    left: 830px;
+    top: -950px;
+ 
+}
+@media (max-width:400px) {
+.Profile-center{
+    margin-top: 90px;
+    width: 200px;
+    margin-left: -140px;
+}    
+}
