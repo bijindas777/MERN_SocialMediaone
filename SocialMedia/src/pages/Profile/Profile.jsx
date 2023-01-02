@@ -8,7 +8,10 @@ import RightSide from '../../components/RightSide/RightSide'
 const Profile = () => {
   return (
 <div className="Profile">
+  <div className='profile-left1'>
+
   <ProfileLeft/>
+  </div>
   <div className="Profile-center">
     <ProfileCard location = "profilePage" />
   </div>

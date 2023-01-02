@@ -5,3 +5,8 @@
     align-items: center;
     overflow: auto;
 }
+@media (max-width:400px) {
+    .ProfileLeft{
+        /* margin-left: 5px; */
+    }
+}

@@ -89,21 +89,33 @@
 
     @media (max-width:400px) {
       .a-left{
+        width: 50%;
         margin-top: -700px;
-        margin-left: 00px;
+        margin-left: -10px;
         position: relative;
 
     }
     .a-right{
-      margin-top: 100px;
-      margin-left: 00px;
+      margin-left: 60px;
       position: absolute;
+      top: 350px;
+     
 
 
     }
     .Webname{
+      top: 90px;
+      position: absolute;
+
 
    font-size: xx-large;
+    }
+    .infoForm{
+      margin-left: -60px;
+      width: 400px;
+     
+   
+     
     }
     
       

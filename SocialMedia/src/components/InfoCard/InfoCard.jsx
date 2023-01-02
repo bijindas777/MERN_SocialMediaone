@@ -84,7 +84,10 @@ const InfoCard = () => {
         </span>
         <span>{profileUser.worksAt}</span>
     </div>
+    <div className='logout'>
+
     <button className='button logout-button'  onClick={handleLogOut}>Logout</button>
+    </div>
     </div>
 
     

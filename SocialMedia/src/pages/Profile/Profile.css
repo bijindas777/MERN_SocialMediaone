@@ -11,19 +11,29 @@
 }
 .Profile-center2{
    position: relative;
-   top: 580px;
+   top: 600px;
    left: -520px;
+ 
+   
 }
 .Profile-right{
     position: relative;
     left: 830px;
-    top: -950px;
+    top: -1100px;
  
 }
 @media (max-width:400px) {
 .Profile-center{
     margin-top: 90px;
     width: 200px;
-    margin-left: -140px;
-}    
+    margin-left: -160px;
+}  
+.Profile-center2{
+margin-left: 110px;
+margin-top: -70px;
+} 
+.profile-left1{
+    width: 300px;
+    height: 300px;
+}
 }
